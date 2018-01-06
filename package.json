@@ -4,7 +4,8 @@
 	"version": "0.1.0",
 	"main": "index.js",
 	"files": [
-		"index.js"
+		"index.js",
+		"lib"
 	],
 	"keywords": [
 		"vdv",
@@ -22,6 +23,10 @@
 		"node": ">=6"
 	},
 	"dependencies": {
+		"byline": "^5.0.0",
+		"duplexer3": "^0.1.4",
+		"iconv-lite": "^0.4.19",
+		"through2": "^2.0.3"
 	},
 	"devDependencies": {
 		"tap-min": "^1.2.2",
