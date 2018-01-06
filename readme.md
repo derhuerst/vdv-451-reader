@@ -1,5 +1,7 @@
 # vdv-451-reader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/vdv-451-reader.svg)](https://greenkeeper.io/)
+
 **A streaming [VDV 451](https://www.vdv.de/oepnv-datenmodell.aspx) reader.**
 
 [![npm version](https://img.shields.io/npm/v/vdv-451-reader.svg)](https://www.npmjs.com/package/vdv-451-reader)
