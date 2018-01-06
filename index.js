@@ -10,7 +10,10 @@ const createReader = () => {
 	const output = createFileParser()
 
 	input.pipe(output)
-	return duplexer({objectMode: true}, input, output)
+	const wrapper = duplexer({objectMode: true}, input, output)
+	output.on('meta', meta => wrapper.emit('meta', meta))
+
+	return wrapper
 }
 
 module.exports = createReader
