@@ -1,0 +1,34 @@
+{
+	"name": "vdv-451-reader",
+	"description": "A streaming VDV 451 reader.",
+	"version": "0.1.0",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"vdv",
+		"451",
+		"public transport",
+		"transit",
+		"parser"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/vdv-451-reader",
+	"repository": "derhuerst/vdv-451-reader",
+	"bugs": "https://github.com/derhuerst/vdv-451-reader/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"tap-min": "^1.2.2",
+		"tape": "^4.8.0"
+	},
+	"scripts": {
+		"test": "node test.js | tap-min",
+		"prepublishOnly": "npm test"
+	}
+}
