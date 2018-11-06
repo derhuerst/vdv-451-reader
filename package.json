@@ -27,7 +27,7 @@
 		"duplexer3": "^0.1.4",
 		"iconv-lite": "^0.4.19",
 		"luxon": "^1.0.0",
-		"through2": "^2.0.3"
+		"through2": "^3.0.0"
 	},
 	"devDependencies": {
 		"tap-min": "^1.2.2",
