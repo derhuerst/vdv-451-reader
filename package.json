@@ -25,7 +25,7 @@
 	"dependencies": {
 		"byline": "^5.0.0",
 		"duplexer3": "^0.1.4",
-		"iconv-lite": "^0.4.19",
+		"iconv-lite": "^0.5.0",
 		"luxon": "^1.0.0",
 		"through2": "^3.0.0"
 	},
